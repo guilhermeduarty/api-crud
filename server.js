@@ -27,5 +27,18 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, () => {
-    console.log(' Servidor rodando em http://localhost:3000');
-});
+            console.log(' Servidor rodando em http://localhost:3000'); ===
+            ===
+            =
+            const express = require('express');
+            const userRoutes = require('./routes/user.routes.js');
+
+            const app = express();
+            app.use(express.json());
+            app.use('/users', userRoutes);
+
+            app.listen(3000, () => {
+                console.log('Server is running on http://localhost:3000'); >>>
+                >>>
+                > baae0653665b1f3b393091bb8e83668623640dc1
+            });
