@@ -69,3 +69,5 @@ router.delete('/:id', async(req, res) => {
 });
 
 module.exports = router;
+
+//TODO: PUT de products pede nome e preço. e se eu quiser atualizar só um ou outro?

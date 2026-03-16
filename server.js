@@ -30,3 +30,6 @@ app.listen(3000, () => {
     console.log(' Servidor rodando em http://localhost:3000');
 
 });
+
+// no PUT de produtos, não consigo editar somente o nome ou somente o preço
+// não existe rota PUT para movimentacoes. e se alguém cadastrar a quantidade errado e quiser editar?
